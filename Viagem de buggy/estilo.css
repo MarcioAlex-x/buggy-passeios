@@ -1,0 +1,41 @@
+/* .banner-principal{
+    background-image: url(assets/Design\ sem\ nome\ \(1\).jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+
+} */
+
+
+.barra1{
+    display: block;
+    align-self: flex-end;
+    height: 1px;
+    width: 35vw;
+    background-image: linear-gradient(to right, #19e61cb4, #61f01a8e, #9FD9238e, #F0EE1A8e, #e6ce19b4);
+}
+.barra2{
+    display: block;
+    align-self: flex-end;
+    height: 1px;
+    width: 35vw;
+    background-image: linear-gradient(to left, #19e61cb4, #61f01a8e, #9FD9238e, #F0EE1A8e, #e6ce19b4);
+}
+.card-mkt-1{
+    background: rgba(255, 255, 255, 0.212);
+}
+.contato{
+    background-image: url(assets/trees-3410836_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mkt-1{
+    background-image: linear-gradient(to right, #19e61cb4, #61f01a8e, #9FD9238e, #F0EE1A8e, #e6ce19b4);
+}
+@media screen and ( max-width:766px ){
+    .mobo{
+        display: none;
+    }
+}
